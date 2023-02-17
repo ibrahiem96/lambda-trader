@@ -55,3 +55,4 @@ env/
 
 test.py
 .DS_Store
+**/python/*
