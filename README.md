@@ -1,2 +1,2 @@
-# lambda-trader
+# Lambda Trader
 Lambda Trader
