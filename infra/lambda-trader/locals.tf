@@ -1,6 +1,6 @@
 locals {
-  # every day at 10:15AM UTC
-  schedule = "cron(15 10 * * ? *)"
+  # every weekday at 8:45AM CST
+  schedule = "cron(45 13 * * ? 1-5)"
 
   alpacatrader_lambda_archive = data.archive_file.alpacatrader_lambda_function.output_path
 
